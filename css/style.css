@@ -1,0 +1,223 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+/*==>  main css start from here <==*/
+
+main{
+	width: 80%;
+	padding: 20px 0px;
+}
+
+/*==>  main css end here <==*/
+
+
+
+/*===> top_header_area css start from here <===*/
+
+.top_header_area:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+
+.top_header_area{
+	width: 100%;
+}
+
+.top_header_area .opening_time p{
+	font-size: 18px;
+}
+
+.top_header_area .opening_time p span{
+	font-weight: bold;
+}
+
+/*===> top_header_area end here <===*/
+
+
+
+/*==> header_area css start from here <==*/
+
+.header_area:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+
+.header_area{
+	width: 100%;
+}
+
+.header_area .logo_area{
+	width: 30%;
+	float: left;
+} 
+
+.header_area .logo{
+	width: 20%;
+	float: left;
+}
+
+.header_area .logo img{
+	width: 80%;
+}
+
+.header_area .title{
+	width: 80%;
+	float: right;
+	padding: 10px 0px;
+}
+
+.header_area .title h2{
+	font-size: 27px;
+	color: #59473D;
+}
+
+.header_area .menu:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.header_area .menu{
+	width: 68%;
+	float: right;
+}
+
+.header_area .menu ul{
+	list-style-type: none;
+}
+
+.header_area .menu ul li{
+	float: left;
+}
+
+.header_area .menu ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 22px;
+	color: #444444;
+	margin: 0px 15px;
+	padding: 15px 10px;
+}
+/*==> header_area css end here <==*/
+
+/*==> banner_section css start from her <==*/
+
+.banner_section{
+	background: url('../img/banner.jpg') no-repeat;
+	background-size: 100%;
+	height: 80vh;
+}
+
+.banner_section h3{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 42px;
+	font-weight: bold;
+	word-spacing: 10px;
+	padding: 10px 0px;
+}
+
+.banner_section p{
+	font-size: 24px;
+	color: #444444;
+	padding: 10px 0px;
+}
+
+.banner_section a{
+	text-decoration: none;
+	color: #ffffff;
+	width: 150px;
+	height: 50px;
+	background-color: #449D44;
+	margin: 80px 0px;
+	display: block;
+	padding: 16px 20px;
+	border-radius: 5px;
+}
+
+/*==> banner_section end here<==*/
+
+
+/*==> copyright_area css start from here <==*/
+.copyright_area{
+	background-color: #444444;
+	color: #000000;
+	text-align: center;
+	font-size: 25px;
+}
+
+/*==> copyright_area css end here <=*/
+
+/*==> patient form css start from here <==*/
+
+#form1 p{
+	padding: 12px 0px;
+	font-size: 18px;
+}
+
+.center{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*==> patient form css start from here <==*/
+
+/*==> login_section css start from  here<==*/
+
+.login_section{
+	background: url('../img/hospital.jpg') no-repeat;
+	background-size: 100%;
+	height: 80vh;
+	width: 100%;
+}
+
+.login_section .login_area{
+	width: 40%;
+/*	margin: auto;*/
+	background-color: rgba(31, 33, 32, 0.8);
+	margin: 50px auto;
+	padding: 20px 10px;
+	text-align: center;
+}
+
+.login_section .login_area  p{
+	color: #ffffff;
+	margin: 20px 0px;
+	font-size: 20px;
+}	
+
+.login_section .login_area input{
+	outline: none;
+	border: none;
+	width: 80%;
+	height: 30px;
+	margin: 10px 0px;
+	padding: 0px 5px;
+}
+
+.login_section .login_area button{
+	width: 80%;
+	height: 30px;
+	margin: 10px 0px;
+}
+
+.login_section .login_area button a{
+	text-decoration: none;
+	color: #444444;
+	font-size: 20px;
+} 
+
+.login_section .login_area button:hover{
+	border: none;
+	outline: none;
+}
+
+
+
+/*==> login_section css end here<==*/
